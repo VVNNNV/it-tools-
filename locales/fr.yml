@@ -1,82 +1,95 @@
 home:
   categories:
-    newestTools: 'Les nouveaux outils'
-    favoriteTools: 'Vos outils favoris'
+    newestTools: 'Nouveaux outils'
+    favoriteTools: 'Vos favoris'
     allTools: 'Tous les outils'
-    favoritesDndToolTip: 'Faites glisser et déposez pour réordonner vos favoris'
-  subtitle: 'Outils pour les développeurs'
+    favoritesDndToolTip: 'Glisser-déposer pour réorganiser vos favoris'
+  subtitle: 'Outils pratiques pour développeurs et professionnels IT'
   toggleMenu: 'Menu'
-  home: Accueil
-  uiLib: 'UI Lib'
-  buyMeACoffee: 'Soutenez IT-Tools'
+  home: 'Accueil'
+  uiLib: 'Bibliothèque UI'
+  buyMeACoffee: 'Soutenir IT-Tools'
   follow:
-    title: 'Vous aimez it-tools ?'
-    p1: 'Soutenez-nous avec une star sur'
-    githubRepository: "le dépôt GitHub d'IT-Tools"
+    title: 'Vous aimez IT-Tools ?'
+    p1: 'Ajoutez une étoile sur'
+    githubRepository: 'le dépôt GitHub'
     p2: 'ou suivez-nous sur'
-    twitterXAccount: "le compte X d'IT-Tools"
-    thankYou: 'Merci !'
+    twitterXAccount: 'notre compte X'
+    thankYou: 'Merci pour votre soutien !'
   nav:
     github: 'Dépôt GitHub'
-    githubRepository: "Dépôt GitHub d'IT-Tools"
+    githubRepository: "Dépôt IT-Tools"
     twitterX: 'Compte X'
     twitterXAccount: "Compte X d'IT-Tools"
     about: "À propos d'IT-Tools"
     aboutLabel: 'À propos'
     darkMode: 'Mode sombre'
     lightMode: 'Mode clair'
-    mode: 'Basculer le mode sombre/clair'
+    mode: 'Changer le mode d’affichage'
+
 about:
   content: >
-    # À propos de IT-Tools
+    # À propos d’IT-Tools
 
-    Ce merveilleux site, fait avec ❤ par [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), regroupe des outils utiles pour les développeurs et les personnes travaillant dans l'informatique. Si vous le trouvez utile, n'hésitez pas à le partager et n'oubliez pas de le mettre dans vos favoris !
+    Développé avec ❤️ par [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about),
+    IT-Tools rassemble une collection d’outils pratiques pour les développeurs et les professionnels de l’informatique.
+    Si ce projet vous est utile, n’hésitez pas à le partager et à l’ajouter à vos favoris !
 
-    IT Tools est open-source (sous licence GPL-3.0) et gratuit, et le restera toujours, mais cela me coûte de l'argent pour l'héberger et renouveler le nom de domaine. Si vous voulez soutenir mon travail, et m'encourager à ajouter plus d'outils, n'hésitez pas à me [soutenir](https://www.buymeacoffee.com/cthmsst).
+    IT-Tools est gratuit, open‑source (licence GPL‑3.0) et le restera toujours.
+    Cependant, l’hébergement et les noms de domaine entraînent des frais récurrents.
+    Si vous souhaitez soutenir mon travail et encourager l’ajout de nouveaux outils,
+    vous pouvez [me soutenir ici](https://www.buymeacoffee.com/cthmsst).
 
     ## Technologies
+    IT-Tools est développé avec Vue.js 3 et la bibliothèque de composants Naive UI.
+    L’hébergement et le déploiement continu sont assurés par Vercel.
+    La liste complète des bibliothèques open‑source utilisées est disponible dans le fichier
+    [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json).
 
-    IT Tools est fait en Vue.js (Vue 3) avec la bibliothèque de composants Naive UI et est hébergé et déployé en continu par Vercel. Des bibliothèques open-source tierces sont utilisées dans certains outils, vous pouvez trouver la liste complète dans le fichier [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) du dépôt.
+    ## Un bug ? Un outil manquant ?
+    Si vous avez besoin d’un outil qui n’est pas encore présent,
+    vous pouvez soumettre une demande dans la
+    [section des issues](https://github.com/CorentinTh/it-tools/issues/new/choose) du dépôt GitHub.
 
-    ## Vous avez trouvé un bug ? Un outil manque ?
-
-    Si vous avez besoin d'un outil qui n'est pas encore présent ici, et que vous pensez qu'il peut être utile, vous êtes invité à soumettre une demande de fonctionnalité dans la [section issue](https://github.com/CorentinTh/it-tools/issues/new/choose) du dépôt GitHub.
+    Si vous rencontrez un bug ou un dysfonctionnement,
+    n’hésitez pas à créer un rapport d’erreur dans la même section.
 
 404:
-  notFound: '404 Not Found'
-  sorry: "Désolé, cette page n'existe pas"
-  maybe: 'Peut-être que le cache fait des siennes, essayez de forcer le rafraîchissement ?'
-  backHome: "Retour à l'accueil"
+  notFound: '404 – Page introuvable'
+  sorry: "Désolé, cette page n’existe pas"
+  maybe: 'Essayez d’actualiser la page si le cache pose problème.'
+  backHome: "Retour à l’accueil"
+
 toolCard:
-  new: Nouveau
+  new: 'Nouveau'
+
 search:
-  label: Rechercher
+  label: 'Rechercher'
+
 tools:
   categories:
-    favorite-tools: 'Vos outils favoris'
-    crypto: Cryptographie
-    converter: Convertisseur
-    web: Web
-    images and videos: 'Images & Vidéos'
-    development: Développement
-    network: Réseau
-    math: Math
-    measurement: Mesure
-    text: Texte
-    data: Données
+    favorite-tools: 'Vos favoris'
+    crypto: 'Cryptographie'
+    converter: 'Convertisseurs'
+    web: 'Web'
+    images and videos: 'Images et vidéos'
+    development: 'Développement'
+    network: 'Réseau'
+    math: 'Mathématiques'
+    measurement: 'Mesures'
+    text: 'Texte'
+    data: 'Données'
 
   token-generator:
-    title: Générateur de token
-    description: >-
-      Génère une chaîne aléatoire avec les caractères que vous voulez, lettres
-      majuscules ou minuscules, chiffres et/ou symboles.
-    uppercase: Majuscules (ABC...)
-    lowercase: Minuscules (abc...)
-    numbers: Chiffres (123...)
-    symbols: Symboles (!-;...)
+    title: 'Générateur de token'
+    description: 'Générez des chaînes aléatoires sécurisées avec lettres, chiffres et symboles.'
+    uppercase: 'Majuscules (ABC...)'
+    lowercase: 'Minuscules (abc...)'
+    numbers: 'Chiffres (123...)'
+    symbols: 'Symboles (!-;...)'
     button:
-      copy: Copier
-      refresh: Rafraichir
-    copied: Le token a été copié
-    length: Longueur
-    tokenPlaceholder: Le token...
+      copy: 'Copier'
+      refresh: 'Rafraîchir'
+    copied: 'Token copié dans le presse‑papier'
+    length: 'Longueur'
+    tokenPlaceholder: 'Token...'

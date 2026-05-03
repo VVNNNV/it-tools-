@@ -1,72 +1,84 @@
 home:
   categories:
-    newestTools: Nuevas herramientas
-    favoriteTools: 'Tus herramientas favoritas'
+    newestTools: 'Herramientas nuevas'
+    favoriteTools: 'Tus favoritas'
     allTools: 'Todas las herramientas'
-    favoritesDndToolTip: 'Arrastra y suelta para reordenar favoritos'
-  subtitle: 'Herramientas practicas para desarrolladores'
-  toggleMenu: 'Toggle menu'
-  home: Home
-  uiLib: 'UI Lib'
-  support: 'Apoyar el desarrollo de IT-Tools'
-  buyMeACoffee: 'Buy me a coffee'
+    favoritesDndToolTip: 'Arrastra para reordenar tus favoritos'
+  subtitle: 'Herramientas prácticas para desarrolladores e IT'
+  toggleMenu: 'Menú'
+  home: 'Inicio'
+  uiLib: 'Librería UI'
+  support: 'Apoya el desarrollo de IT-Tools'
+  buyMeACoffee: 'Invítame un café'
   follow:
-    title: 'Te gustan las it-tools?'
+    title: '¿Te gusta IT-Tools?'
     p1: 'Danos una estrella en'
-    githubRepository: 'Repositorio de IT-Tools en GitHub'
+    githubRepository: 'GitHub'
     p2: 'o síguenos en'
-    twitterXAccount: 'Cuenta de X de IT-Tools'
-    thankYou: 'Muchas gracias!'
+    twitterXAccount: 'nuestra cuenta X'
+    thankYou: '¡Gracias por tu apoyo!'
   nav:
-    github: 'Repositorio en github'
-    githubRepository: 'IT-Tools GitHub repository'
-    twitterX: 'Cuenta de X'
-    twitterXAccount: 'Cuenta de X de IT Tools'
-    about: 'Sobre  IT-Tools'
-    aboutLabel: 'Sobre'
-    darkMode: 'Modo obscuro'
+    github: 'Repositorio GitHub'
+    githubRepository: 'Repositorio IT-Tools'
+    twitterX: 'X'
+    twitterXAccount: 'IT-Tools en X'
+    about: 'Acerca de IT-Tools'
+    aboutLabel: 'Acerca de'
+    darkMode: 'Modo oscuro'
     lightMode: 'Modo claro'
-    mode: 'Alternar modo oscuro/claro'
+    mode: 'Cambiar modo de visualización'
+
 about:
   content: >
-    # Sobre IT-Tools
+    # Acerca de IT-Tools
 
-    Este maravilloso sitio web, hecho con ❤ por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) , agrega herramientas útiles para desarrolladores y personas que trabajan en IT. Si lo encuentra útil, no dude en compartirlo con las personas que crea que también pueden encontrarlo útil y ¡no olvide marcarlo como favorito en su barra de accesos directos!
+    IT-Tools es una colección de herramientas útiles creadas con ❤️ por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about),
+    pensadas para desarrolladores y profesionales del sector tecnológico.
+    Si te resultan útiles, compártelas y guarda el sitio en tus favoritos.
 
-    IT Tools es de código abierto (under the GPL-3.0 license) y gratis, y siempre lo será, pero me cuesta dinero alojar y renovar el nombre de dominio. Si desea apoyar mi trabajo y animarme a agregar más herramientas, considere apoyarme a través de[sponsoring me](https://www.buymeacoffee.com/cthmsst).
+    IT-Tools es software libre y open source (licencia GPL-3.0), completamente gratuito y lo seguirá siendo.
+    Sin embargo, los gastos de hosting y dominio son constantes.
+    Si deseas apoyar mi trabajo y motivarme para seguir añadiendo herramientas,
+    puedes hacerlo a través de [mi página de apoyo](https://www.buymeacoffee.com/cthmsst).
 
     ## Tecnologías
+    IT-Tools está desarrollado con Vue.js 3 y la librería de componentes Naive UI,
+    alojado y desplegado de forma continua en Vercel.
+    Algunas herramientas utilizan librerías externas;
+    la lista completa se encuentra en el archivo [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json).
 
-    IT Tools está creado en Vue.js (Vue 3) con la biblioteca de componentes Naive UI y Vercel lo aloja y lo implementa continuamente. En algunas herramientas se utilizan bibliotecas de código abierto de terceros; puede encontrar la lista completa en [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) archivo del repositorio.
+    ## ¿Has encontrado un error? ¿Echas en falta una herramienta?
+    Si necesitas una herramienta que no está disponible, puedes proponerla en la
+    [sección de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) de GitHub.
 
-    ## ¿Encontraste un error? ¿Falta una herramienta?
-
-    Si necesita una herramienta que actualmente no está presente aquí y cree que puede ser útil, puede enviar una solicitud de función en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
-
-    Y si encontró un error o algo no funciona como se esperaba, presente un reporte de error en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
+    Si detectas un fallo o un mal funcionamiento, abre un reporte de error en la misma sección.
 
 404:
-  notFound: '404 Not Found'
-  sorry: 'Lo sentimos, esta página no parece existir'
-  maybe: 'Tal vez el caché esté haciendo cosas raras, ¿probamos a refrescar forzosamente?'
-  backHome: 'Back home'
+  notFound: '404 – Página no encontrada'
+  sorry: 'Lo sentimos, esta página no existe'
+  maybe: 'Puede deberse a la caché. Intenta actualizar la página.'
+  backHome: 'Volver al inicio'
+
 favoriteButton:
-  remove: 'Quitar de favoritos'
+  remove: 'Eliminar de favoritos'
   add: 'Añadir a favoritos'
+
 toolCard:
-  new: Nuevo
+  new: 'Nuevo'
+
 search:
-  label: Buscar
+  label: 'Buscar herramientas'
+
 tools:
   categories:
-    favorite-tools: 'Tus herramientas favoritas'
-    crypto: Crypto
-    converter: Converter
-    web: Web
-    images and videos: 'Images & Videos'
-    development: Development
-    network: Network
-    math: Math
-    measurement: Measurement
-    text: Text
-    data: Data
+    favorite-tools: 'Favoritas'
+    crypto: 'Criptografía'
+    converter: 'Convertidores'
+    web: 'Web'
+    images and videos: 'Imágenes y vídeos'
+    development: 'Desarrollo'
+    network: 'Redes'
+    math: 'Matemáticas'
+    measurement: 'Medidas'
+    text: 'Texto'
+    data: 'Datos'

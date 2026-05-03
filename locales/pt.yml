@@ -1,72 +1,85 @@
 home:
   categories:
-    newestTools: 'Novas ferramentas'
-    favoriteTools: 'Suas ferramentas favoritas'
-    allTools: 'Todas as ferramentas'
-    favoritesDndToolTip: 'Arraste e solte para reordenar favoritos'
-  subtitle: 'Ferraentas úteis para desenvolvedores'
+    newestTools: 'Công cụ mới nhất'
+    favoriteTools: 'Yêu thích'
+    allTools: 'Tất cả công cụ'
+    favoritesDndToolTip: 'Kéo thả để sắp xếp lại danh sách yêu thích'
+  subtitle: 'Bộ công cụ hữu ích cho nhà phát triển'
   toggleMenu: 'Menu'
-  home: 'Início'
-  uiLib: 'Biblioteca de UI'
-  support: 'Apoie o desenvolvimento do IT Tools'
-  buyMeACoffee: 'Pague-me um café'
+  home: 'Trang chủ'
+  uiLib: 'Thư viện UI'
+  support: 'Hỗ trợ phát triển IT-Tools'
+  buyMeACoffee: 'Mua tôi một ly cà phê'
   follow:
-    title: 'Gostou do it-tools?'
-    p1: 'Dê uma estrela no'
-    githubRepository: 'repositório do IT-Tools no GitHub'
-    p2: 'ou siga nossa'
-    twitterXAccount: 'conta IT-Tools no X'
-    thankYou: 'Obrigado !'
+    title: 'Bạn thích IT-Tools?'
+    p1: 'Hãy đánh giá Star trên'
+    githubRepository: 'kho GitHub của IT-Tools'
+    p2: 'hoặc theo dõi'
+    twitterXAccount: 'tài khoản X của IT-Tools'
+    thankYou: 'Cảm ơn bạn!'
   nav:
-    github: 'Repositório no GitHub'
-    githubRepository: 'repositório do IT-Tools no GitHub'
-    twitterX: 'Conta no X'
-    twitterXAccount: 'conta do IT Tools no X'
-    about: 'Sobre o IT-Tools'
-    aboutLabel: 'Sobre'
-    darkMode: 'Modo Escuro'
-    lightMode: 'Modo Claro'
-    mode: 'Trocar modo escuro/claro'
+    github: 'Kho GitHub'
+    githubRepository: 'Kho GitHub IT-Tools'
+    twitterX: 'Tài khoản X'
+    twitterXAccount: 'IT-Tools trên X'
+    about: 'Về IT-Tools'
+    aboutLabel: 'Về'
+    darkMode: 'Chế độ tối'
+    lightMode: 'Chế độ sáng'
+    mode: 'Chuyển chế độ hiển thị'
+
 about:
   content: >
-    # Sobre o IT-Tools
+    # Về IT-Tools
 
-    Este site maravilhoso, feito com ❤ por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), junta ferramentas úteis para desenvolvedores e outras pessoas que trabalham com TI. Se você achar o site útil, fique à vontade para compartilhar com quem também possa gostar e não esqueça de salvar o bookmark na sua barra de atalhos!
+    Dự án được phát triển với tình yêu bởi [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about),
+    tập hợp các công cụ hữu ích cho lập trình viên và người làm việc trong lĩnh vực CNTT.
+    Nếu bạn thấy trang hữu ích, hãy chia sẻ cho người khác và lưu vào bookmark nhé!
 
-    O IT Tools é código aberto (sob a licença GPL-3.0), é gratuito, e sempre será, mas custa dinheiro para hospedar e renovar o domínio. Se quiser apoiar meu trabalho e me encorajar a adicionar mais ferramentas, por favor considere [ser patrocinador](https://www.buymeacoffee.com/cthmsst).
+    IT-Tools là mã nguồn mở (theo giấy phép GPL-3.0), hoàn toàn miễn phí và sẽ luôn như vậy.
+    Tuy nhiên, việc duy trì máy chủ và tên miền cần chi phí.
+    Nếu bạn muốn hỗ trợ công việc của tôi và khuyến khích thêm công cụ mới,
+    hãy cân nhắc [hỗ trợ tôi](https://www.buymeacoffee.com/cthmsst).
 
-    ## Tecnologias
+    ## Công nghệ
+    IT-Tools được xây dựng trên Vue.js (Vue 3) cùng thư viện component Naive UI,
+    được lưu trữ bởi Vercel.
+    Một số công cụ sử dụng thư viện mã nguồn mở bên thứ ba,
+    danh sách đầy đủ có thể xem trong tệp [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json).
 
-    O IT Tools é feito em Vue.js (Vue 3) com a biblioteca de componentes Naive UI e é hospedado pela Vercel. Bibliotecas de código aberto de terceiros são usadas em algumas ferramentas e você pode encontrar a lista completa no arquivo [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) do repositório.
+    ## Phát hiện lỗi? Thiếu công cụ?
+    Nếu bạn cần một công cụ chưa có và nghĩ nó sẽ hữu ích,
+    hãy tạo yêu cầu trong [phần Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) trên GitHub.
 
-    ## Achou um bug? Está faltando uma ferramenta?
-
-    Se você precisa de uma ferramenta que ainda não existe aqui e acha que pode ser útil, seu pedido será bem vindo na [seção de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no repositório do GitHub.
-
-    E se você encontrar um bug ou se algo não funcionar como esperado, por favor registre um relato de bug na [seção de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no GitHub.
+    Nếu bạn tìm thấy lỗi hoặc chức năng hoạt động không đúng,
+    vui lòng báo cáo trong [Issues](https://github.com/CorentinTh/it-tools/issues/new/choose) để chúng tôi cải thiện sớm.
 
 404:
-  notFound: '404 Não Encontrado'
-  sorry: 'Desculpe, parece que essa página não existe'
-  maybe: 'Talvez o cache esteja fazendo bobagem, que tal tentar forçar a atualização?'
-  backHome: 'Voltar para o início'
+  notFound: '404 Không Tìm Thấy'
+  sorry: 'Rất tiếc, trang này không tồn tại'
+  maybe: 'Có thể do lỗi bộ nhớ đệm, hãy thử làm mới trang!'
+  backHome: 'Quay lại trang chủ'
+
 favoriteButton:
-  remove: 'Remover dos favoritos'
-  add: 'Adicionar aos favoritos'
+  remove: 'Bỏ yêu thích'
+  add: 'Thêm vào yêu thích'
+
 toolCard:
-  new: 'Novo'
+  new: 'Mới'
+
 search:
-  label: 'Pesquisar'
+  label: 'Tìm kiếm'
+
 tools:
   categories:
-    favorite-tools: 'Suas ferramentas favoritas'
-    crypto: 'Cripto'
-    converter: 'Conversores'
+    favorite-tools: 'Yêu thích'
+    crypto: 'Mã hóa'
+    converter: 'Chuyển đổi'
     web: 'Web'
-    images and videos: 'Imagens & Vídeos'
-    development: 'Desenvolvimento'
-    network: 'Rede'
-    math: 'Matemática'
-    measurement: 'Medidas'
-    text: 'Texto'
-    data: 'Dados'
+    images and videos: 'Hình ảnh & Video'
+    development: 'Phát triển'
+    network: 'Mạng'
+    math: 'Toán học'
+    measurement: 'Đo lường'
+    text: 'Văn bản'
+    data: 'Dữ liệu'
