@@ -6,6 +6,8 @@ import { Heart, Home2, Menu2 } from '@vicons/tabler';
 
 import { storeToRefs } from 'pinia';
 import HeroGradient from '../assets/hero-gradient.svg?component';
+import LogoLight from '../assets/logo-light.png';
+import LogoDark from '../assets/logo-dark.png';
 import MenuLayout from '../components/MenuLayout.vue';
 import NavbarButtons from '../components/NavbarButtons.vue';
 import { useStyleStore } from '@/stores/style.store';
@@ -25,6 +27,8 @@ const { t } = useI18n();
 
 const toolStore = useToolStore();
 const { favoriteTools, toolsByCategory } = storeToRefs(toolStore);
+const { isDarkTheme } = storeToRefs(styleStore);
+const currentLogo = computed(() => isDarkTheme.value ? LogoDark : LogoLight);
 
 const tools = computed<ToolCategory[]>(() => [
   ...(favoriteTools.value.length > 0 ? [{ name: t('tools.categories.favorite-tools'), components: favoriteTools.value }] : []),
@@ -36,7 +40,7 @@ const tools = computed<ToolCategory[]>(() => [
   <MenuLayout class="menu-layout" :class="{ isSmallScreen: styleStore.isSmallScreen }">
     <template #sider>
       <RouterLink to="/" class="hero-wrapper">
-        <HeroGradient class="gradient" />
+        <img :src="currentLogo" alt="IT-TOOLS Logo" class="logo-image" />
         <div class="text-wrapper">
           <div class="title">
             IT - TOOLS
@@ -185,17 +189,25 @@ const tools = computed<ToolCategory[]>(() => [
   z-index: 10;
   overflow: hidden;
 
-  .gradient {
-    margin-top: -65px;
+  .logo-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    padding: 20px 10px;
+    background: linear-gradient(135deg, rgba(92, 176, 255, 0.1) 0%, rgba(13, 148, 136, 0.1) 100%);
+    border-radius: 8px;
+    margin-bottom: 10px;
   }
 
   .text-wrapper {
-    position: absolute;
+    position: relative;
     left: 0;
     width: 100%;
     text-align: center;
-    top: 16px;
+    top: 0;
     color: #fff;
+    padding: 10px 0;
 
     .title {
       font-size: 25px;
