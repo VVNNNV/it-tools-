@@ -18,7 +18,7 @@ src/
 ├── assets/
 │   ├── logo-light.png             # 亮色模式 Logo（新增）
 │   ├── logo-dark.png              # 暗色模式 Logo（新增）
-│   └── hero-gradient.svg           # 原始渐变背景
+│   └──             # 原始渐变背景
 └── pages/                         # 页面文件
 ```
 
