@@ -1,9 +1,3 @@
-```vue
-<script setup>
-import LogoLight from '../assets/your-logo-light.png';
-import LogoDark from '../assets/your-logo-dark.png';
-</script>
-```
 <script lang="ts" setup>
 import { NIcon, useThemeVars } from 'naive-ui';
 
@@ -11,7 +5,7 @@ import { RouterLink } from 'vue-router';
 import { Heart, Home2, Menu2 } from '@vicons/tabler';
 
 import { storeToRefs } from 'pinia';
-import HeroGradient from '../assets/ ?component';
+import HeroGradient from '../assets/hero-gradient.svg?component';
 import MenuLayout from '../components/MenuLayout.vue';
 import NavbarButtons from '../components/NavbarButtons.vue';
 import { useStyleStore } from '@/stores/style.store';

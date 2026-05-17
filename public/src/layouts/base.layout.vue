@@ -1,3 +1,9 @@
+```vue
+<script setup>
+import LogoLight from '../assets/your-logo-light.png';
+import LogoDark from '../assets/your-logo-dark.png';
+</script>
+```
 <script lang="ts" setup>
 import { NIcon, useThemeVars } from 'naive-ui';
 
